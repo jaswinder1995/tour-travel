@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height:100vh;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),url(../assets/images//banner1.jpg);
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.header img{
+    width: 170px;
+    float: left;
+    
+}
+.login-btn{
+    width: 100px;
+    background: transparent;
+    border-radius: 50px;
+   outline: none !important;
+   border: 2px solid white;
+   color: white;
+   padding: 8px 0;
+   float: right;
+}
+.header h1{
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p{
+    padding-top:30px;
+   letter-spacing:8px;
+}
+.input-group input{
+    width:90%;
+    max-width: 500px;
+    border-radius: 30px;
+
+}
+/* features */
+.features{
+    padding-top: 100px;
+}
+.features h1{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.feature-img img{
+width: 100%;
+}
+.feature-price {
+    height: 50px;
+    width: 50px;
+    background: coral;
+    border-radius: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    left: 20px;
+    bottom: -20px;
+    
+}
+.feature-img{
+    position: relative;
+}
+.rating{
+    position: absolute;
+    float: right;
+    background: white;
+    padding: 3px;
+    right: 0;
+    bottom: -1px;
+}
+.rating .fa{
+    color: coral;
+    font-size: 15px;
+}
+.features .fas{
+    color: tomato;
+}
+.feature-detail{
+    padding: 30px;
+    padding-bottom: 30px;
+}
+.feature-detail h4{
+    padding-top: 30px;
+}
+.feature-detail .fas{
+margin-right: 5px;
+}
+.feature-box{
+    box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.75);
+margin-bottom: 40px;
+}
+/* gallery */
+.gallery{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.gallery-box img{
+    width: 100%;
+    border-radius:10px;
+    cursor: pointer;
+}
+.gallery-box{
+    position: relative;
+    margin-bottom: 50px;
+   
+    text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+}
+.gallery-box h4{
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+/* banner */
+.banner{
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-image:url(../assets/images//banner2.jpg);
+    padding-top: 15%;
+}
+.banner-highlights{
+    padding: 70px 0;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.6);
+}
+.booking-btn{
+    width: 100px;
+    background: transparent;
+    border-radius: 50px;
+   outline: none !important;
+   border: 2px solid white;
+   color: white;
+   padding: 8px 0;
+  }
+/* user-feedback */
+.user-feedback{
+    padding: 100px 0;
+}
+.user-feedback h1{
+text-align: center;
+}
+.user-review{
+    margin-top: 80px;
+    text-align: center;
+    box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.75);
+padding-bottom: 40px !important;
+}
+.user-review p{
+    padding-top: 50px ;
+}
+.user-review small{
+   
+}
+.user-feedback img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: -30px 0 20px 40%;
+    position: relative;
+}
+/* footer */
+.footer{
+    color: white;
+    padding: 100px;
+    background:rgb(58, 206, 226);
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.footer p{
+    font-size: 16px;
+   
+}
+.footer .fas{
+padding-right: 15px;
+}
+.footer .fab{
+    padding-right: 15px;
+    }
+.footer hr{
+     background: white; 
+     
+ }
+ .copy-right{
+    text-align: center;
+ }
+ .copy-right .fas{
+     color: rgb(207, 59, 59);
+    
+ }
